@@ -13,23 +13,23 @@ def hello():
 # Get request
 @route('/')
 def get_index():
-    return static_file('index.html', root=".")
+    return static_file('index.html', root="./public/")
 
-@route('/css/styles.css')
+@route('public/css/styles.css')
 def get_styles():
-    return static_file('styles.css', root="./css/")
+    return static_file('styles.css', root="./public/css/")
 
-@route('/css/quartz.css')
+@route('public/css/quartz.css')
 def get_quartz():
-    return static_file('quartz.css', root="./css/")
+    return static_file('quartz.css', root="./public/css/")
 
-@route('/assests/img/brianna.jpeg')
+@route('public/assests/brianna.jpeg')
 def get_profile_img():
-    return static_file('brianna.jpeg', root="./assets/")
+    return static_file('brianna.jpeg', root="./public/assets/")
 
-@route('/js/scripts.js')
+@route('public/js/scripts.js')
 def get_js_scripts():
-    return static_file('scripts.js', root="./js/")
+    return static_file('scripts.js', root="./public/js/")
 
 # make a function to create a get request route for my resume page
 
