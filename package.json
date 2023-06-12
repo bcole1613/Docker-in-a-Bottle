@@ -1,0 +1,23 @@
+{
+  "name": "docker-in-a-bottle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcole1613/Docker-in-a-Bottle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcole1613/Docker-in-a-Bottle/issues"
+  },
+  "homepage": "https://github.com/bcole1613/Docker-in-a-Bottle#readme",
+  "dependencies": {
+    "firebase": "^9.22.2"
+  }
+}
